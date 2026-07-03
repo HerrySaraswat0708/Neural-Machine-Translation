@@ -3,3 +3,7 @@ __pycache__/
 .DS_Store
 NMT-venv
 Neural_Machine_Translation
+
+# Large training artifacts -- reproducible via train.py, not checked in
+checkpoints/
+data/splits/

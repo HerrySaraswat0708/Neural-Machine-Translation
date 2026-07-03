@@ -1,0 +1,16 @@
+{
+    "emb_dim": 128,
+    "num_heads": 8,
+    "ff_dim": 2048,
+    "num_layers": 6,
+    "dropout": 0.1,
+    "batch_size": 32,
+    "epochs": 20,
+    "warmup_steps": 4000,
+    "label_smoothing": 0.1,
+    "grad_clip": 1.0,
+    "seed": 42,
+    "bpe_vocab_size": 8000,
+    "max_seq_len_default": 64,
+    "max_seq_len_char": 128
+}
