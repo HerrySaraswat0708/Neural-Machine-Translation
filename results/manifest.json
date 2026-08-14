@@ -1,0 +1,137 @@
+{
+  "word_sinusoidal": {
+    "tokenizer_type": "word",
+    "pe_type": "sinusoidal",
+    "src_vocab_size": 11823,
+    "tgt_vocab_size": 24038,
+    "max_seq_len": 64,
+    "num_params": 15205222,
+    "epochs": 10,
+    "train_time_sec": 1306.2893388271332,
+    "final_train_loss": 2.591849254036351,
+    "final_train_acc": 75.9208100020939,
+    "final_eval_loss": 2.6890849688878427,
+    "final_eval_acc": 74.57940894288069,
+    "checkpoint_path": "checkpoints/word_sinusoidal/model.pt",
+    "vocab_dir": "checkpoints/vocab/word",
+    "device": "cuda",
+    "bleu": {
+      "greedy": 37.173297989405356,
+      "beam": 40.073924762840946,
+      "top_k": 28.255281791435532,
+      "top_p": 31.917228277002007
+    }
+  },
+  "bpe_sinusoidal": {
+    "tokenizer_type": "bpe",
+    "pe_type": "sinusoidal",
+    "src_vocab_size": 8000,
+    "tgt_vocab_size": 8000,
+    "max_seq_len": 64,
+    "num_params": 100572992,
+    "epochs": 10,
+    "train_time_sec": 3898.5348122119904,
+    "final_train_loss": 5.907120366610719,
+    "final_train_acc": 15.634225316237655,
+    "final_eval_loss": 9.739219709084583,
+    "final_eval_acc": 0.6949790047025088,
+    "checkpoint_path": "checkpoints/bpe_sinusoidal/model.pt",
+    "vocab_dir": "checkpoints/vocab/bpe",
+    "device": "cuda",
+    "bleu": {
+      "greedy": 0.0,
+      "beam": 0.0,
+      "top_k": 0.0,
+      "top_p": 0.00012620877835141524
+    }
+  },
+  "bpe_rope": {
+    "tokenizer_type": "bpe",
+    "pe_type": "rope",
+    "src_vocab_size": 8000,
+    "tgt_vocab_size": 8000,
+    "max_seq_len": 64,
+    "num_params": 100572992,
+    "epochs": 10,
+    "train_time_sec": 4109.424201011658,
+    "final_train_loss": 5.856947670974113,
+    "final_train_acc": 16.1009541645517,
+    "final_eval_loss": 8.707949578762054,
+    "final_eval_acc": 0.01130936963032954,
+    "checkpoint_path": "checkpoints/bpe_rope/model.pt",
+    "vocab_dir": "checkpoints/vocab/bpe",
+    "device": "cuda",
+    "bleu": {
+      "greedy": 0.0,
+      "beam": 0.0,
+      "top_k": 0.0,
+      "top_p": 0.0002368827984169364
+    }
+  },
+  "char_sinusoidal": {
+    "tokenizer_type": "char",
+    "pe_type": "sinusoidal",
+    "src_vocab_size": 34,
+    "tgt_vocab_size": 49,
+    "max_seq_len": 128,
+    "num_params": 88344625,
+    "epochs": 10,
+    "train_time_sec": 6744.378822088242,
+    "final_train_loss": 1.3307233306515787,
+    "final_train_acc": 76.01630560695565,
+    "final_eval_loss": 3.025301357301382,
+    "final_eval_acc": 24.19678156643642,
+    "checkpoint_path": "checkpoints/char_sinusoidal/model.pt",
+    "vocab_dir": "checkpoints/vocab/char",
+    "device": "cuda",
+    "bleu": {
+      "greedy": 0.0,
+      "beam": 0.0,
+      "top_k": 0.0,
+      "top_p": 0.0
+    }
+  },
+  "char_rope": {
+    "tokenizer_type": "char",
+    "pe_type": "rope",
+    "src_vocab_size": 34,
+    "tgt_vocab_size": 49,
+    "max_seq_len": 128,
+    "num_params": 88344625,
+    "epochs": 10,
+    "train_time_sec": 7174.1520783901215,
+    "final_train_loss": 1.3139961241386644,
+    "final_train_acc": 76.59363355938136,
+    "final_eval_loss": 1.4166028432261486,
+    "final_eval_acc": 74.37130966328662,
+    "checkpoint_path": "checkpoints/char_rope/model.pt",
+    "vocab_dir": "checkpoints/vocab/char",
+    "device": "cuda",
+    "bleu": {
+      "greedy": 0.871240357737971,
+      "beam": 0.8601653952875682,
+      "top_k": 0.33057316240637763,
+      "top_p": 0.33057316240637763
+    }
+  },
+  "word_rope": {
+    "tokenizer_type": "word",
+    "pe_type": "rope",
+    "src_vocab_size": 11823,
+    "tgt_vocab_size": 24038,
+    "max_seq_len": 64,
+    "num_params": null,
+    "epochs": 10,
+    "final_train_loss": 2.516103573911145,
+    "final_train_acc": 77.37156842216653,
+    "checkpoint_path": "checkpoints/word_rope/model.pt",
+    "vocab_dir": "checkpoints/vocab/word",
+    "device": "cuda",
+    "bleu": {
+      "greedy": 39.918946806902376,
+      "beam": 41.58035935362613,
+      "top_k": 30.369813395058245,
+      "top_p": 33.608641167187585
+    }
+  }
+}

@@ -111,8 +111,20 @@ def main():
         train_pairs = train_pairs[: args.subsample]
         test_pairs = test_pairs[: max(1, args.subsample // 5)]
 
-    train_src, train_tgt = encode_pairs(train_pairs, src_tok, tgt_tok, max_seq_len)
-    test_src, test_tgt = encode_pairs(test_pairs, src_tok, tgt_tok, max_seq_len)
+    # Cache encoded tensors per tokenizer so sinusoidal/rope variants skip re-encoding.
+    cache_dir = os.path.join(CHECKPOINTS_DIR, "encoded_cache", args.tokenizer)
+    cache_files = [os.path.join(cache_dir, f) for f in ("train_src.pt", "train_tgt.pt", "test_src.pt", "test_tgt.pt")]
+    if not args.subsample and all(os.path.exists(f) for f in cache_files):
+        print(f"[{args.tokenizer}] loading encoded tensors from cache")
+        train_src, train_tgt, test_src, test_tgt = (torch.load(f, weights_only=True) for f in cache_files)
+    else:
+        train_src, train_tgt = encode_pairs(train_pairs, src_tok, tgt_tok, max_seq_len)
+        test_src, test_tgt = encode_pairs(test_pairs, src_tok, tgt_tok, max_seq_len)
+        if not args.subsample:
+            os.makedirs(cache_dir, exist_ok=True)
+            for tensor, path in zip([train_src, train_tgt, test_src, test_tgt], cache_files):
+                torch.save(tensor, path)
+            print(f"[{args.tokenizer}] encoded tensors cached to {cache_dir}")
 
     train_loader = DataLoader(
         TensorDataset(train_src, train_tgt), batch_size=DEFAULTS["batch_size"], shuffle=True, drop_last=True

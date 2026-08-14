@@ -12,7 +12,8 @@ def load() -> dict:
     if not os.path.exists(MANIFEST_PATH):
         return {}
     with open(MANIFEST_PATH, encoding="utf-8") as f:
-        return json.load(f)
+        content = f.read().strip()
+        return json.loads(content) if content else {}
 
 
 def upsert(variant_id: str, fields: dict) -> None:

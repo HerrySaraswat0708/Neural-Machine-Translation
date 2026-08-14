@@ -1,5 +1,6 @@
 import json
 import os
+import re
 
 from tokenization.base import BaseTokenizer, PAD_ID, SOS_ID, EOS_ID, UNK_ID
 
@@ -26,7 +27,11 @@ class WordTokenizer(BaseTokenizer):
             for i in ids
             if i not in (PAD_ID, SOS_ID, EOS_ID)
         ]
-        return " ".join(words)
+        text = " ".join(words)
+        # Re-attach punctuation that word-level normalization separated with spaces.
+        text = re.sub(r" ([.,!?;:’'])", r"\1", text)  # space before punct
+        text = re.sub(r"([‘(\"]) ", r"\1", text)       # space after open quote/paren
+        return text
 
     def save(self, dir_path: str) -> None:
         os.makedirs(dir_path, exist_ok=True)
