@@ -1,0 +1,15 @@
+Using device: cuda
+[bpe] vocab already exists at /home/herrys/projects/Neural-Machine-Translation/v3/tokenization/../checkpoints/vocab/bpe, skipping (use --force to rebuild)
+[bpe] loading encoded tensors from cache
+[bpe_rope_mha_deeper] epoch 1/10 loss=4.4873 acc=44.83% lr=1.16e-03
+[bpe_rope_mha_deeper] epoch 2/10 loss=3.2254 acc=60.64% lr=1.08e-03
+[bpe_rope_mha_deeper] epoch 3/10 loss=2.9098 acc=66.11% lr=8.84e-04
+[bpe_rope_mha_deeper] epoch 4/10 loss=2.7633 acc=68.71% lr=7.66e-04
+[bpe_rope_mha_deeper] epoch 5/10 loss=2.6689 acc=70.35% lr=6.85e-04
+[bpe_rope_mha_deeper] epoch 6/10 loss=2.6062 acc=71.53% lr=6.25e-04
+[bpe_rope_mha_deeper] epoch 7/10 loss=2.5552 acc=72.45% lr=5.79e-04
+[bpe_rope_mha_deeper] epoch 8/10 loss=2.5089 acc=73.27% lr=5.42e-04
+[bpe_rope_mha_deeper] epoch 9/10 loss=2.4717 acc=73.96% lr=5.11e-04
+[bpe_rope_mha_deeper] epoch 10/10 loss=2.4376 acc=74.61% lr=4.84e-04
+[bpe_rope_mha_deeper] eval loss=2.4692 acc=74.39%
+[bpe_rope_mha_deeper] saved checkpoint to /home/herrys/projects/Neural-Machine-Translation/v3/checkpoints/bpe_rope_mha_deeper, manifest updated.

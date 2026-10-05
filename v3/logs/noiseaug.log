@@ -1,0 +1,26 @@
+Using device: cuda
+[bpe] vocab already exists at /home/herrys/projects/Neural-Machine-Translation/v3/tokenization/../checkpoints/vocab/bpe, skipping (use --force to rebuild)
+[noise_aug] added 53162 noised-source duplicates (noise_prob=0.5); train set now 159693 pairs
+[bpe_noise0.5] encoded tensors cached to /home/herrys/projects/Neural-Machine-Translation/v3/checkpoints/encoded_cache/bpe_noise0.5
+[bpe_rope_mha_noiseaug] epoch 1/20 loss=3.9852 acc=51.06% lr=1.02e-03
+[bpe_rope_mha_noiseaug] epoch 2/20 loss=2.8745 acc=66.31% lr=7.22e-04
+[bpe_rope_mha_noiseaug] epoch 3/20 loss=2.5971 acc=71.22% lr=5.90e-04
+[bpe_rope_mha_noiseaug] epoch 4/20 loss=2.4487 acc=73.95% lr=5.11e-04
+[bpe_rope_mha_noiseaug] epoch 5/20 loss=2.3501 acc=75.90% lr=4.57e-04
+[bpe_rope_mha_noiseaug] epoch 6/20 loss=2.2784 acc=77.31% lr=4.17e-04
+[bpe_rope_mha_noiseaug] epoch 7/20 loss=2.2262 acc=78.46% lr=3.86e-04
+[bpe_rope_mha_noiseaug] epoch 8/20 loss=2.1801 acc=79.42% lr=3.61e-04
+[bpe_rope_mha_noiseaug] epoch 9/20 loss=2.1389 acc=80.28% lr=3.41e-04
+[bpe_rope_mha_noiseaug] epoch 10/20 loss=2.1028 acc=81.03% lr=3.23e-04
+[bpe_rope_mha_noiseaug] epoch 11/20 loss=2.0727 acc=81.72% lr=3.08e-04
+[bpe_rope_mha_noiseaug] epoch 12/20 loss=2.0469 acc=82.30% lr=2.95e-04
+[bpe_rope_mha_noiseaug] epoch 13/20 loss=2.0264 acc=82.78% lr=2.83e-04
+[bpe_rope_mha_noiseaug] epoch 14/20 loss=2.0078 acc=83.18% lr=2.73e-04
+[bpe_rope_mha_noiseaug] epoch 15/20 loss=1.9899 acc=83.62% lr=2.64e-04
+[bpe_rope_mha_noiseaug] epoch 16/20 loss=1.9744 acc=83.98% lr=2.55e-04
+[bpe_rope_mha_noiseaug] epoch 17/20 loss=1.9557 acc=84.40% lr=2.48e-04
+[bpe_rope_mha_noiseaug] epoch 18/20 loss=1.9412 acc=84.70% lr=2.41e-04
+[bpe_rope_mha_noiseaug] epoch 19/20 loss=1.9292 acc=84.98% lr=2.34e-04
+[bpe_rope_mha_noiseaug] epoch 20/20 loss=1.9157 acc=85.31% lr=2.28e-04
+[bpe_rope_mha_noiseaug] eval loss=2.2701 acc=78.92%
+[bpe_rope_mha_noiseaug] saved checkpoint to /home/herrys/projects/Neural-Machine-Translation/v3/checkpoints/bpe_rope_mha_noiseaug, manifest updated.

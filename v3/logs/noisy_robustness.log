@@ -1,0 +1,25 @@
+That's 100 lines that end in a tokenized period ('.')
+It looks like you forgot to detokenize your test data, which may hurt your score.
+If you insist your data is detokenized, or don't care, you can suppress this message with the `force` parameter.
+That's 100 lines that end in a tokenized period ('.')
+It looks like you forgot to detokenize your test data, which may hurt your score.
+If you insist your data is detokenized, or don't care, you can suppress this message with the `force` parameter.
+[BEFORE] clean-input BLEU=44.23   noisy-input BLEU=26.38   degradation=+17.86
+That's 100 lines that end in a tokenized period ('.')
+It looks like you forgot to detokenize your test data, which may hurt your score.
+If you insist your data is detokenized, or don't care, you can suppress this message with the `force` parameter.
+That's 100 lines that end in a tokenized period ('.')
+It looks like you forgot to detokenize your test data, which may hurt your score.
+If you insist your data is detokenized, or don't care, you can suppress this message with the `force` parameter.
+[AFTER] clean-input BLEU=43.12   noisy-input BLEU=32.01   degradation=+11.10
+
+Sample noisy inputs (same 3 for both models):
+  clean: 'she wore heart shaped earrings .'
+  noisy: 'she wore heart shaped earrings .'
+  clean: 'i don t want you touching my stuff .'
+  noisy: 'i don t you want touching my stuff .'
+  clean: 'let s talk a bit about that .'
+  noisy: 's let a yalk bit about that .'
+
+Noise-robustness gain from augmentation: BEFORE lost 17.86 BLEU to noise, AFTER lost 11.10 BLEU to noise.
+Clean-set BLEU change from augmentation: -1.12 (should be small/near-zero -- augmentation should not regress normal translation quality)

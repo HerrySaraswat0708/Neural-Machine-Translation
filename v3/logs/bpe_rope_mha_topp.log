@@ -1,0 +1,57 @@
+[bpe_rope_mha/top_p] 500/26633
+[bpe_rope_mha/top_p] 1000/26633
+[bpe_rope_mha/top_p] 1500/26633
+[bpe_rope_mha/top_p] 2000/26633
+[bpe_rope_mha/top_p] 2500/26633
+[bpe_rope_mha/top_p] 3000/26633
+[bpe_rope_mha/top_p] 3500/26633
+[bpe_rope_mha/top_p] 4000/26633
+[bpe_rope_mha/top_p] 4500/26633
+[bpe_rope_mha/top_p] 5000/26633
+[bpe_rope_mha/top_p] 5500/26633
+[bpe_rope_mha/top_p] 6000/26633
+[bpe_rope_mha/top_p] 6500/26633
+[bpe_rope_mha/top_p] 7000/26633
+[bpe_rope_mha/top_p] 7500/26633
+[bpe_rope_mha/top_p] 8000/26633
+[bpe_rope_mha/top_p] 8500/26633
+[bpe_rope_mha/top_p] 9000/26633
+[bpe_rope_mha/top_p] 9500/26633
+[bpe_rope_mha/top_p] 10000/26633
+[bpe_rope_mha/top_p] 10500/26633
+[bpe_rope_mha/top_p] 11000/26633
+[bpe_rope_mha/top_p] 11500/26633
+[bpe_rope_mha/top_p] 12000/26633
+[bpe_rope_mha/top_p] 12500/26633
+[bpe_rope_mha/top_p] 13000/26633
+[bpe_rope_mha/top_p] 13500/26633
+[bpe_rope_mha/top_p] 14000/26633
+[bpe_rope_mha/top_p] 14500/26633
+[bpe_rope_mha/top_p] 15000/26633
+[bpe_rope_mha/top_p] 15500/26633
+[bpe_rope_mha/top_p] 16000/26633
+[bpe_rope_mha/top_p] 16500/26633
+[bpe_rope_mha/top_p] 17000/26633
+[bpe_rope_mha/top_p] 17500/26633
+[bpe_rope_mha/top_p] 18000/26633
+[bpe_rope_mha/top_p] 18500/26633
+[bpe_rope_mha/top_p] 19000/26633
+[bpe_rope_mha/top_p] 19500/26633
+[bpe_rope_mha/top_p] 20000/26633
+[bpe_rope_mha/top_p] 20500/26633
+[bpe_rope_mha/top_p] 21000/26633
+[bpe_rope_mha/top_p] 21500/26633
+[bpe_rope_mha/top_p] 22000/26633
+[bpe_rope_mha/top_p] 22500/26633
+[bpe_rope_mha/top_p] 23000/26633
+[bpe_rope_mha/top_p] 23500/26633
+[bpe_rope_mha/top_p] 24000/26633
+[bpe_rope_mha/top_p] 24500/26633
+[bpe_rope_mha/top_p] 25000/26633
+[bpe_rope_mha/top_p] 25500/26633
+[bpe_rope_mha/top_p] 26000/26633
+[bpe_rope_mha/top_p] 26500/26633
+That's 100 lines that end in a tokenized period ('.')
+It looks like you forgot to detokenize your test data, which may hurt your score.
+If you insist your data is detokenized, or don't care, you can suppress this message with the `force` parameter.
+[bpe_rope_mha/top_p] BLEU=31.19 chrF++=50.27 TER=47.13 on 26633 examples

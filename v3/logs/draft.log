@@ -1,0 +1,25 @@
+Using device: cuda
+[bpe_joint] vocab already exists at /home/herrys/projects/Neural-Machine-Translation/v3/tokenization/../checkpoints/vocab/bpe_joint, skipping (use --force to rebuild)
+[bpe_joint] loading encoded tensors from cache
+[bpe_joint_rope_mha_draft] epoch 1/20 loss=4.8457 acc=39.44% lr=1.64e-03
+[bpe_joint_rope_mha_draft] epoch 2/20 loss=3.2168 acc=59.51% lr=1.53e-03
+[bpe_joint_rope_mha_draft] epoch 3/20 loss=2.8724 acc=65.23% lr=1.25e-03
+[bpe_joint_rope_mha_draft] epoch 4/20 loss=2.7424 acc=67.51% lr=1.08e-03
+[bpe_joint_rope_mha_draft] epoch 5/20 loss=2.6716 acc=68.81% lr=9.69e-04
+[bpe_joint_rope_mha_draft] epoch 6/20 loss=2.6243 acc=69.67% lr=8.84e-04
+[bpe_joint_rope_mha_draft] epoch 7/20 loss=2.5879 acc=70.41% lr=8.19e-04
+[bpe_joint_rope_mha_draft] epoch 8/20 loss=2.5630 acc=70.90% lr=7.66e-04
+[bpe_joint_rope_mha_draft] epoch 9/20 loss=2.5403 acc=71.40% lr=7.22e-04
+[bpe_joint_rope_mha_draft] epoch 10/20 loss=2.5207 acc=71.71% lr=6.85e-04
+[bpe_joint_rope_mha_draft] epoch 11/20 loss=2.5048 acc=72.06% lr=6.53e-04
+[bpe_joint_rope_mha_draft] epoch 12/20 loss=2.4906 acc=72.32% lr=6.25e-04
+[bpe_joint_rope_mha_draft] epoch 13/20 loss=2.4769 acc=72.58% lr=6.01e-04
+[bpe_joint_rope_mha_draft] epoch 14/20 loss=2.4656 acc=72.81% lr=5.79e-04
+[bpe_joint_rope_mha_draft] epoch 15/20 loss=2.4571 acc=72.95% lr=5.59e-04
+[bpe_joint_rope_mha_draft] epoch 16/20 loss=2.4460 acc=73.21% lr=5.42e-04
+[bpe_joint_rope_mha_draft] epoch 17/20 loss=2.4376 acc=73.37% lr=5.25e-04
+[bpe_joint_rope_mha_draft] epoch 18/20 loss=2.4295 acc=73.50% lr=5.11e-04
+[bpe_joint_rope_mha_draft] epoch 19/20 loss=2.4224 acc=73.64% lr=4.97e-04
+[bpe_joint_rope_mha_draft] epoch 20/20 loss=2.4170 acc=73.78% lr=4.84e-04
+[bpe_joint_rope_mha_draft] eval loss=2.4930 acc=72.84%
+[bpe_joint_rope_mha_draft] saved checkpoint to /home/herrys/projects/Neural-Machine-Translation/v3/checkpoints/bpe_joint_rope_mha_draft, manifest updated.

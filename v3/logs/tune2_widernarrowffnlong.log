@@ -1,0 +1,25 @@
+Using device: cuda
+[bpe] vocab already exists at /home/herrys/projects/Neural-Machine-Translation/v3/tokenization/../checkpoints/vocab/bpe, skipping (use --force to rebuild)
+[bpe] loading encoded tensors from cache
+[bpe_rope_mha_widernarrowffnlong] epoch 1/20 loss=4.2976 acc=47.70% lr=9.50e-04
+[bpe_rope_mha_widernarrowffnlong] epoch 2/20 loss=3.0225 acc=64.10% lr=8.84e-04
+[bpe_rope_mha_widernarrowffnlong] epoch 3/20 loss=2.7095 acc=69.42% lr=7.22e-04
+[bpe_rope_mha_widernarrowffnlong] epoch 4/20 loss=2.5398 acc=72.38% lr=6.25e-04
+[bpe_rope_mha_widernarrowffnlong] epoch 5/20 loss=2.4251 acc=74.50% lr=5.59e-04
+[bpe_rope_mha_widernarrowffnlong] epoch 6/20 loss=2.3416 acc=76.11% lr=5.11e-04
+[bpe_rope_mha_widernarrowffnlong] epoch 7/20 loss=2.2745 acc=77.43% lr=4.73e-04
+[bpe_rope_mha_widernarrowffnlong] epoch 8/20 loss=2.2219 acc=78.48% lr=4.42e-04
+[bpe_rope_mha_widernarrowffnlong] epoch 9/20 loss=2.1798 acc=79.32% lr=4.17e-04
+[bpe_rope_mha_widernarrowffnlong] epoch 10/20 loss=2.1428 acc=80.13% lr=3.96e-04
+[bpe_rope_mha_widernarrowffnlong] epoch 11/20 loss=2.1140 acc=80.72% lr=3.77e-04
+[bpe_rope_mha_widernarrowffnlong] epoch 12/20 loss=2.0853 acc=81.37% lr=3.61e-04
+[bpe_rope_mha_widernarrowffnlong] epoch 13/20 loss=2.0613 acc=81.84% lr=3.47e-04
+[bpe_rope_mha_widernarrowffnlong] epoch 14/20 loss=2.0359 acc=82.36% lr=3.34e-04
+[bpe_rope_mha_widernarrowffnlong] epoch 15/20 loss=2.0156 acc=82.80% lr=3.23e-04
+[bpe_rope_mha_widernarrowffnlong] epoch 16/20 loss=1.9946 acc=83.26% lr=3.13e-04
+[bpe_rope_mha_widernarrowffnlong] epoch 17/20 loss=1.9772 acc=83.60% lr=3.03e-04
+[bpe_rope_mha_widernarrowffnlong] epoch 18/20 loss=1.9598 acc=84.02% lr=2.95e-04
+[bpe_rope_mha_widernarrowffnlong] epoch 19/20 loss=1.9445 acc=84.36% lr=2.87e-04
+[bpe_rope_mha_widernarrowffnlong] epoch 20/20 loss=1.9294 acc=84.64% lr=2.80e-04
+[bpe_rope_mha_widernarrowffnlong] eval loss=2.2422 acc=79.16%
+[bpe_rope_mha_widernarrowffnlong] saved checkpoint to /home/herrys/projects/Neural-Machine-Translation/v3/checkpoints/bpe_rope_mha_widernarrowffnlong, manifest updated.

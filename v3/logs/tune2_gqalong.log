@@ -1,0 +1,25 @@
+Using device: cuda
+[bpe] vocab already exists at /home/herrys/projects/Neural-Machine-Translation/v3/tokenization/../checkpoints/vocab/bpe, skipping (use --force to rebuild)
+[bpe] loading encoded tensors from cache
+[bpe_rope_gqa_long] epoch 1/20 loss=4.4414 acc=45.65% lr=1.16e-03
+[bpe_rope_gqa_long] epoch 2/20 loss=3.1642 acc=61.73% lr=1.08e-03
+[bpe_rope_gqa_long] epoch 3/20 loss=2.8611 acc=66.85% lr=8.84e-04
+[bpe_rope_gqa_long] epoch 4/20 loss=2.7204 acc=69.38% lr=7.66e-04
+[bpe_rope_gqa_long] epoch 5/20 loss=2.6318 acc=71.00% lr=6.85e-04
+[bpe_rope_gqa_long] epoch 6/20 loss=2.5673 acc=72.14% lr=6.25e-04
+[bpe_rope_gqa_long] epoch 7/20 loss=2.5149 acc=73.11% lr=5.79e-04
+[bpe_rope_gqa_long] epoch 8/20 loss=2.4758 acc=73.87% lr=5.42e-04
+[bpe_rope_gqa_long] epoch 9/20 loss=2.4376 acc=74.59% lr=5.11e-04
+[bpe_rope_gqa_long] epoch 10/20 loss=2.4085 acc=75.15% lr=4.84e-04
+[bpe_rope_gqa_long] epoch 11/20 loss=2.3806 acc=75.69% lr=4.62e-04
+[bpe_rope_gqa_long] epoch 12/20 loss=2.3568 acc=76.13% lr=4.42e-04
+[bpe_rope_gqa_long] epoch 13/20 loss=2.3336 acc=76.57% lr=4.25e-04
+[bpe_rope_gqa_long] epoch 14/20 loss=2.3144 acc=76.99% lr=4.09e-04
+[bpe_rope_gqa_long] epoch 15/20 loss=2.2954 acc=77.33% lr=3.96e-04
+[bpe_rope_gqa_long] epoch 16/20 loss=2.2798 acc=77.62% lr=3.83e-04
+[bpe_rope_gqa_long] epoch 17/20 loss=2.2630 acc=77.97% lr=3.72e-04
+[bpe_rope_gqa_long] epoch 18/20 loss=2.2485 acc=78.24% lr=3.61e-04
+[bpe_rope_gqa_long] epoch 19/20 loss=2.2361 acc=78.48% lr=3.51e-04
+[bpe_rope_gqa_long] epoch 20/20 loss=2.2218 acc=78.79% lr=3.43e-04
+[bpe_rope_gqa_long] eval loss=2.3612 acc=76.85%
+[bpe_rope_gqa_long] saved checkpoint to /home/herrys/projects/Neural-Machine-Translation/v3/checkpoints/bpe_rope_gqa_long, manifest updated.

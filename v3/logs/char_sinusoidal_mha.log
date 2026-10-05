@@ -1,0 +1,15 @@
+Using device: cuda
+[char] vocab already exists at /home/herrys/projects/Neural-Machine-Translation/v3/tokenization/../checkpoints/vocab/char, skipping (use --force to rebuild)
+[char] loading encoded tensors from cache
+[char_sinusoidal_mha] epoch 1/10 loss=2.1089 acc=49.84% lr=1.16e-03
+[char_sinusoidal_mha] epoch 2/10 loss=1.6817 acc=63.93% lr=1.08e-03
+[char_sinusoidal_mha] epoch 3/10 loss=1.5794 acc=67.38% lr=8.84e-04
+[char_sinusoidal_mha] epoch 4/10 loss=1.5328 acc=68.94% lr=7.66e-04
+[char_sinusoidal_mha] epoch 5/10 loss=1.5040 acc=69.92% lr=6.85e-04
+[char_sinusoidal_mha] epoch 6/10 loss=1.4829 acc=70.64% lr=6.25e-04
+[char_sinusoidal_mha] epoch 7/10 loss=1.4673 acc=71.20% lr=5.79e-04
+[char_sinusoidal_mha] epoch 8/10 loss=1.4559 acc=71.58% lr=5.42e-04
+[char_sinusoidal_mha] epoch 9/10 loss=1.4460 acc=71.92% lr=5.11e-04
+[char_sinusoidal_mha] epoch 10/10 loss=1.4380 acc=72.20% lr=4.84e-04
+[char_sinusoidal_mha] eval loss=1.5866 acc=69.38%
+[char_sinusoidal_mha] saved checkpoint to /home/herrys/projects/Neural-Machine-Translation/v3/checkpoints/char_sinusoidal_mha, manifest updated.
