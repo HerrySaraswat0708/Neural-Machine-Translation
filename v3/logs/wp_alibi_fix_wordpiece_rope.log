@@ -1,0 +1,15 @@
+Using device: cuda
+[wordpiece] vocab already exists at /home/herrys/projects/Neural-Machine-Translation/v3/tokenization/../checkpoints/vocab/wordpiece, skipping (use --force to rebuild)
+[wordpiece] loading encoded tensors from cache
+[wordpiece_rope_mha] epoch 1/10 loss=4.3173 acc=47.17% lr=1.16e-03
+[wordpiece_rope_mha] epoch 2/10 loss=3.0512 acc=63.33% lr=1.08e-03
+[wordpiece_rope_mha] epoch 3/10 loss=2.7555 acc=68.49% lr=8.84e-04
+[wordpiece_rope_mha] epoch 4/10 loss=2.6169 acc=71.04% lr=7.66e-04
+[wordpiece_rope_mha] epoch 5/10 loss=2.5311 acc=72.60% lr=6.85e-04
+[wordpiece_rope_mha] epoch 6/10 loss=2.4671 acc=73.77% lr=6.25e-04
+[wordpiece_rope_mha] epoch 7/10 loss=2.4164 acc=74.78% lr=5.79e-04
+[wordpiece_rope_mha] epoch 8/10 loss=2.3770 acc=75.51% lr=5.42e-04
+[wordpiece_rope_mha] epoch 9/10 loss=2.3417 acc=76.21% lr=5.11e-04
+[wordpiece_rope_mha] epoch 10/10 loss=2.3109 acc=76.78% lr=4.84e-04
+[wordpiece_rope_mha] eval loss=2.3561 acc=76.31%
+[wordpiece_rope_mha] saved checkpoint to /home/herrys/projects/Neural-Machine-Translation/v3/checkpoints/wordpiece_rope_mha, manifest updated.

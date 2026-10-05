@@ -1,0 +1,15 @@
+Using device: cuda
+[bpe] vocab already exists at /home/herrys/projects/Neural-Machine-Translation/v3/tokenization/../checkpoints/vocab/bpe, skipping (use --force to rebuild)
+[bpe] loading encoded tensors from cache
+[bpe_sinusoidal_mha] epoch 1/10 loss=4.7801 acc=39.73% lr=1.16e-03
+[bpe_sinusoidal_mha] epoch 2/10 loss=3.4780 acc=55.39% lr=1.08e-03
+[bpe_sinusoidal_mha] epoch 3/10 loss=3.0468 acc=63.23% lr=8.84e-04
+[bpe_sinusoidal_mha] epoch 4/10 loss=2.8493 acc=66.91% lr=7.66e-04
+[bpe_sinusoidal_mha] epoch 5/10 loss=2.7393 acc=68.99% lr=6.85e-04
+[bpe_sinusoidal_mha] epoch 6/10 loss=2.6621 acc=70.41% lr=6.25e-04
+[bpe_sinusoidal_mha] epoch 7/10 loss=2.6013 acc=71.51% lr=5.79e-04
+[bpe_sinusoidal_mha] epoch 8/10 loss=2.5546 acc=72.38% lr=5.42e-04
+[bpe_sinusoidal_mha] epoch 9/10 loss=2.5146 acc=73.13% lr=5.11e-04
+[bpe_sinusoidal_mha] epoch 10/10 loss=2.4798 acc=73.77% lr=4.84e-04
+[bpe_sinusoidal_mha] eval loss=2.5025 acc=73.77%
+[bpe_sinusoidal_mha] saved checkpoint to /home/herrys/projects/Neural-Machine-Translation/v3/checkpoints/bpe_sinusoidal_mha, manifest updated.

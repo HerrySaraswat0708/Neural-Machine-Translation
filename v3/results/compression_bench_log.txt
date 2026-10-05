@@ -1,0 +1,16 @@
+Compression benchmark log (quantization + pruning) -- bpe_joint_rope_mha
+Reproducible via: python benchmark_optimizations.py --compression --n 5
+(n=5 deliberately small -- see PROGRESS.md's Compression section for why:
+CPU-side dynamic-INT8 naive decode is ~5.3 min/sentence in this
+environment, confirmed genuinely computing via py-spy, not hung.)
+
+These are the exact numbers transcribed into PROGRESS.md's Compression
+section (quantization + pruning tables) and the Comparison Study's
+"Honest conclusion" paragraph.
+
+baseline GPU BLEU (n=5): 50.46
+quantize build time: 82.8 s
+quantized CPU BLEU (n=5): 46.9   eval time: 1602.9 s for 5 sentences
+pruned 30%: sparsity=30.0% size=41.37MB BLEU=50.46
+pruned 50%: sparsity=50.0% size=41.37MB BLEU=37.83
+pruned 70%: sparsity=70.0% size=41.37MB BLEU=0.37

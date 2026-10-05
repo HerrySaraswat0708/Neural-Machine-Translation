@@ -1,0 +1,10 @@
+name       | BEFORE (separate vocab)                       | preserved? | AFTER (joint vocab)                           | preserved?
+----------------------------------------------------------------------------------------------------------------------------------
+herry      | mon nom est sa cavale .                       | NO         | mon nom est son nom .                         | NO
+zhorvaq    | mon nom est fusiluel .                        | NO         | mon nom est des taux des taures !             | NO
+blipnak    | mon nom est gulté .                           | NO         | mon nom est rougi .                           | NO
+quexinor   | mon nom est en tête .                         | NO         | mon nom est reine .                           | NO
+tom        | mon nom est tom .                             | yes        | mon nom est tom .                             | yes
+mary       | mon nom est mary .                            | yes        | mon nom est mary .                            | yes
+
+Preserved verbatim: BEFORE 2/6   AFTER 2/6

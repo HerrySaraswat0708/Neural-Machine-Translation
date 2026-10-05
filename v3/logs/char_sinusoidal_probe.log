@@ -1,0 +1,130 @@
+######################################################################
+VARIANT: char_sinusoidal_mha
+config: {'src_vocab_size': 34, 'tgt_vocab_size': 49, 'emb_dim': 128, 'num_heads': 8, 'ff_dim': 2048, 'num_layers': 6, 'max_seq_len': 128, 'dropout': 0.1, 'pad_idx': 0, 'pe_type': 'sinusoidal', 'attn_type': 'mha', 'num_kv_heads': 8}
+------------------------------------------------------------
+EN : i advised him to come back at once .
+REF: je lui ai conseillé de revenir immédiatement .
+HYP: 'je suis très fatigué .'
+len(out_ids)=23 max_seq_len=128 eos_hit=True
+first 40 ids: [4, 5, 6, 7, 12, 9, 7, 6, 16, 18, 37, 7, 6, 20, 8, 16, 9, 35, 12, 34, 6, 21, 2]
+------------------------------------------------------------
+EN : you ve been very helpful .
+REF: tu as été très utile .
+HYP: 'je suis très fatigué .'
+len(out_ids)=23 max_seq_len=128 eos_hit=True
+first 40 ids: [4, 5, 6, 7, 12, 9, 7, 6, 16, 18, 37, 7, 6, 20, 8, 16, 9, 35, 12, 34, 6, 21, 2]
+------------------------------------------------------------
+EN : he slept well last night .
+REF: il a bien dormi la nuit dernière .
+HYP: 'je suis très fatigué .'
+len(out_ids)=23 max_seq_len=128 eos_hit=True
+first 40 ids: [4, 5, 6, 7, 12, 9, 7, 6, 16, 18, 37, 7, 6, 20, 8, 16, 9, 35, 12, 34, 6, 21, 2]
+------------------------------------------------------------
+EN : why don t you mind your own business ?
+REF: pourquoi ne vous occupez-vous pas de vos oignons ?
+HYP: 'je suis très fatigué .'
+len(out_ids)=23 max_seq_len=128 eos_hit=True
+first 40 ids: [4, 5, 6, 7, 12, 9, 7, 6, 16, 18, 37, 7, 6, 20, 8, 16, 9, 35, 12, 34, 6, 21, 2]
+------------------------------------------------------------
+EN : we can t help tom .
+REF: nous ne pouvons pas aider tom .
+HYP: 'je suis très fatigué .'
+len(out_ids)=23 max_seq_len=128 eos_hit=True
+first 40 ids: [4, 5, 6, 7, 12, 9, 7, 6, 16, 18, 37, 7, 6, 20, 8, 16, 9, 35, 12, 34, 6, 21, 2]
+------------------------------------------------------------
+EN : it just came out .
+REF: il vient de s'avouer homo .
+HYP: 'je suis très fatigué .'
+len(out_ids)=23 max_seq_len=128 eos_hit=True
+first 40 ids: [4, 5, 6, 7, 12, 9, 7, 6, 16, 18, 37, 7, 6, 20, 8, 16, 9, 35, 12, 34, 6, 21, 2]
+------------------------------------------------------------
+EN : do you mind if i ask you a question ?
+REF: puis-je vous poser une question ?
+HYP: 'je suis très fatigué .'
+len(out_ids)=23 max_seq_len=128 eos_hit=True
+first 40 ids: [4, 5, 6, 7, 12, 9, 7, 6, 16, 18, 37, 7, 6, 20, 8, 16, 9, 35, 12, 34, 6, 21, 2]
+------------------------------------------------------------
+EN : i speak french every day at work .
+REF: je parle le français tous les jours au travail .
+HYP: 'je suis très fatigué .'
+len(out_ids)=23 max_seq_len=128 eos_hit=True
+first 40 ids: [4, 5, 6, 7, 12, 9, 7, 6, 16, 18, 37, 7, 6, 20, 8, 16, 9, 35, 12, 34, 6, 21, 2]
+------------------------------------------------------------
+EN : walking is a healthy form of exercise .
+REF: marcher est une forme d'exercice saine .
+HYP: 'je suis très fatigué .'
+len(out_ids)=23 max_seq_len=128 eos_hit=True
+first 40 ids: [4, 5, 6, 7, 12, 9, 7, 6, 16, 18, 37, 7, 6, 20, 8, 16, 9, 35, 12, 34, 6, 21, 2]
+------------------------------------------------------------
+EN : this is hers .
+REF: ce sont les siennes .
+HYP: 'je suis très fatigué .'
+len(out_ids)=23 max_seq_len=128 eos_hit=True
+first 40 ids: [4, 5, 6, 7, 12, 9, 7, 6, 16, 18, 37, 7, 6, 20, 8, 16, 9, 35, 12, 34, 6, 21, 2]
+
+[char_sinusoidal_mha] 0/10 examples ran to max_seq_len without emitting EOS
+######################################################################
+VARIANT: char_rope_mha
+config: {'src_vocab_size': 34, 'tgt_vocab_size': 49, 'emb_dim': 128, 'num_heads': 8, 'ff_dim': 2048, 'num_layers': 6, 'max_seq_len': 128, 'dropout': 0.1, 'pad_idx': 0, 'pe_type': 'rope', 'attn_type': 'mha', 'num_kv_heads': 8}
+------------------------------------------------------------
+EN : i advised him to come back at once .
+REF: je lui ai conseillé de revenir immédiatement .
+HYP: 'je lui ai conseillé de revenir immédiatement .'
+len(out_ids)=47 max_seq_len=128 eos_hit=True
+first 40 ids: [4, 5, 6, 29, 12, 9, 6, 8, 9, 6, 10, 14, 17, 7, 5, 9, 29, 29, 34, 6, 19, 5, 6, 18, 5, 13, 5, 17, 9, 18, 6, 9, 25, 25, 34, 19, 9, 8, 16, 5]
+------------------------------------------------------------
+EN : you ve been very helpful .
+REF: tu as été très utile .
+HYP: 'tu as été très serviable .'
+len(out_ids)=27 max_seq_len=128 eos_hit=True
+first 40 ids: [16, 12, 6, 8, 7, 6, 34, 16, 34, 6, 16, 18, 37, 7, 6, 7, 5, 18, 13, 9, 8, 36, 29, 5, 6, 21, 2]
+------------------------------------------------------------
+EN : he slept well last night .
+REF: il a bien dormi la nuit dernière .
+HYP: 'il a bien dormi la nuit dernière .'
+len(out_ids)=35 max_seq_len=128 eos_hit=True
+first 40 ids: [9, 29, 6, 8, 6, 36, 9, 5, 17, 6, 19, 14, 18, 25, 9, 6, 29, 8, 6, 17, 12, 9, 16, 6, 19, 5, 18, 17, 9, 37, 18, 5, 6, 21, 2]
+------------------------------------------------------------
+EN : why don t you mind your own business ?
+REF: pourquoi ne vous occupez-vous pas de vos oignons ?
+HYP: 'pourquoi ne te déranges-tu pas de tes propres affaires ?'
+len(out_ids)=57 max_seq_len=128 eos_hit=True
+first 40 ids: [22, 14, 12, 18, 11, 12, 14, 9, 6, 17, 5, 6, 16, 5, 6, 19, 34, 18, 8, 17, 35, 5, 7, 24, 16, 12, 6, 22, 8, 7, 6, 19, 5, 6, 16, 5, 7, 6, 22, 18]
+------------------------------------------------------------
+EN : we can t help tom .
+REF: nous ne pouvons pas aider tom .
+HYP: 'nous ne pouvons pas aider tom .'
+len(out_ids)=32 max_seq_len=128 eos_hit=True
+first 40 ids: [17, 14, 12, 7, 6, 17, 5, 6, 22, 14, 12, 13, 14, 17, 7, 6, 22, 8, 7, 6, 8, 9, 19, 5, 18, 6, 16, 14, 25, 6, 21, 2]
+------------------------------------------------------------
+EN : it just came out .
+REF: il vient de s'avouer homo .
+HYP: 'ça vient de sortir .'
+len(out_ids)=21 max_seq_len=128 eos_hit=True
+first 40 ids: [38, 8, 6, 13, 9, 5, 17, 16, 6, 19, 5, 6, 7, 14, 18, 16, 9, 18, 6, 21, 2]
+------------------------------------------------------------
+EN : do you mind if i ask you a question ?
+REF: puis-je vous poser une question ?
+HYP: 'voyez-vous un inconvénient à ce que je vous pose une question ?'
+len(out_ids)=64 max_seq_len=128 eos_hit=True
+first 40 ids: [13, 14, 33, 5, 23, 24, 13, 14, 12, 7, 6, 12, 17, 6, 9, 17, 10, 14, 17, 13, 34, 17, 9, 5, 17, 16, 6, 32, 6, 10, 5, 6, 11, 12, 5, 6, 4, 5, 6, 13]
+------------------------------------------------------------
+EN : i speak french every day at work .
+REF: je parle le français tous les jours au travail .
+HYP: 'je parle français tous les jours au travail .'
+len(out_ids)=46 max_seq_len=128 eos_hit=True
+first 40 ids: [4, 5, 6, 22, 8, 18, 29, 5, 6, 20, 18, 8, 17, 38, 8, 9, 7, 6, 16, 14, 12, 7, 6, 29, 5, 7, 6, 4, 14, 12, 18, 7, 6, 8, 12, 6, 16, 18, 8, 13]
+------------------------------------------------------------
+EN : walking is a healthy form of exercise .
+REF: marcher est une forme d'exercice saine .
+HYP: "marcher est une fois d'exercice ."
+len(out_ids)=34 max_seq_len=128 eos_hit=True
+first 40 ids: [25, 8, 18, 10, 26, 5, 18, 6, 5, 7, 16, 6, 12, 17, 5, 6, 20, 14, 9, 7, 6, 19, 31, 5, 27, 5, 18, 10, 9, 10, 5, 6, 21, 2]
+------------------------------------------------------------
+EN : this is hers .
+REF: ce sont les siennes .
+HYP: "c'est la sienne ."
+len(out_ids)=18 max_seq_len=128 eos_hit=True
+first 40 ids: [10, 31, 5, 7, 16, 6, 29, 8, 6, 7, 9, 5, 17, 17, 5, 6, 21, 2]
+
+[char_rope_mha] 0/10 examples ran to max_seq_len without emitting EOS

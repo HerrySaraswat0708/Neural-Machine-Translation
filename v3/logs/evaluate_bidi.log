@@ -1,0 +1,34 @@
+[bpe_joint_rope_mha_bidi/en->fr] 2000/26633
+[bpe_joint_rope_mha_bidi/en->fr] 4000/26633
+[bpe_joint_rope_mha_bidi/en->fr] 6000/26633
+[bpe_joint_rope_mha_bidi/en->fr] 8000/26633
+[bpe_joint_rope_mha_bidi/en->fr] 10000/26633
+[bpe_joint_rope_mha_bidi/en->fr] 12000/26633
+[bpe_joint_rope_mha_bidi/en->fr] 14000/26633
+[bpe_joint_rope_mha_bidi/en->fr] 16000/26633
+[bpe_joint_rope_mha_bidi/en->fr] 18000/26633
+[bpe_joint_rope_mha_bidi/en->fr] 20000/26633
+[bpe_joint_rope_mha_bidi/en->fr] 22000/26633
+[bpe_joint_rope_mha_bidi/en->fr] 24000/26633
+[bpe_joint_rope_mha_bidi/en->fr] 26000/26633
+That's 100 lines that end in a tokenized period ('.')
+It looks like you forgot to detokenize your test data, which may hurt your score.
+If you insist your data is detokenized, or don't care, you can suppress this message with the `force` parameter.
+[bpe_joint_rope_mha_bidi/en->fr] BLEU=41.34 chrF++=59.71 TER=38.61 on 26633 examples
+[bpe_joint_rope_mha_bidi/fr->en] 2000/26633
+[bpe_joint_rope_mha_bidi/fr->en] 4000/26633
+[bpe_joint_rope_mha_bidi/fr->en] 6000/26633
+[bpe_joint_rope_mha_bidi/fr->en] 8000/26633
+[bpe_joint_rope_mha_bidi/fr->en] 10000/26633
+[bpe_joint_rope_mha_bidi/fr->en] 12000/26633
+[bpe_joint_rope_mha_bidi/fr->en] 14000/26633
+[bpe_joint_rope_mha_bidi/fr->en] 16000/26633
+[bpe_joint_rope_mha_bidi/fr->en] 18000/26633
+[bpe_joint_rope_mha_bidi/fr->en] 20000/26633
+[bpe_joint_rope_mha_bidi/fr->en] 22000/26633
+[bpe_joint_rope_mha_bidi/fr->en] 24000/26633
+[bpe_joint_rope_mha_bidi/fr->en] 26000/26633
+That's 100 lines that end in a tokenized period ('.')
+It looks like you forgot to detokenize your test data, which may hurt your score.
+If you insist your data is detokenized, or don't care, you can suppress this message with the `force` parameter.
+[bpe_joint_rope_mha_bidi/fr->en] BLEU=56.03 chrF++=67.25 TER=27.21 on 26633 examples

@@ -1,0 +1,15 @@
+Using device: cuda
+[word] vocab already exists at /home/herrys/projects/Neural-Machine-Translation/v3/tokenization/../checkpoints/vocab/word, skipping (use --force to rebuild)
+[word] loading encoded tensors from cache
+[word_rope_mha] epoch 1/10 loss=4.7818 acc=45.37% lr=1.16e-03
+[word_rope_mha] epoch 2/10 loss=3.3990 acc=61.81% lr=1.08e-03
+[word_rope_mha] epoch 3/10 loss=3.0809 acc=67.28% lr=8.84e-04
+[word_rope_mha] epoch 4/10 loss=2.9344 acc=69.91% lr=7.66e-04
+[word_rope_mha] epoch 5/10 loss=2.8394 acc=71.61% lr=6.85e-04
+[word_rope_mha] epoch 6/10 loss=2.7703 acc=72.84% lr=6.25e-04
+[word_rope_mha] epoch 7/10 loss=2.7170 acc=73.83% lr=5.79e-04
+[word_rope_mha] epoch 8/10 loss=2.6702 acc=74.62% lr=5.42e-04
+[word_rope_mha] epoch 9/10 loss=2.6307 acc=75.35% lr=5.11e-04
+[word_rope_mha] epoch 10/10 loss=2.5945 acc=75.92% lr=4.84e-04
+[word_rope_mha] eval loss=2.6709 acc=75.23%
+[word_rope_mha] saved checkpoint to /home/herrys/projects/Neural-Machine-Translation/v3/checkpoints/word_rope_mha, manifest updated.

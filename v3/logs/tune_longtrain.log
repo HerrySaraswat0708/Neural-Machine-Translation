@@ -1,0 +1,25 @@
+Using device: cuda
+[bpe] vocab already exists at /home/herrys/projects/Neural-Machine-Translation/v3/tokenization/../checkpoints/vocab/bpe, skipping (use --force to rebuild)
+[bpe] loading encoded tensors from cache
+[bpe_rope_mha_longtrain] epoch 1/20 loss=4.4341 acc=45.84% lr=1.16e-03
+[bpe_rope_mha_longtrain] epoch 2/20 loss=3.1585 acc=61.83% lr=1.08e-03
+[bpe_rope_mha_longtrain] epoch 3/20 loss=2.8554 acc=67.07% lr=8.84e-04
+[bpe_rope_mha_longtrain] epoch 4/20 loss=2.7102 acc=69.60% lr=7.66e-04
+[bpe_rope_mha_longtrain] epoch 5/20 loss=2.6223 acc=71.20% lr=6.85e-04
+[bpe_rope_mha_longtrain] epoch 6/20 loss=2.5566 acc=72.40% lr=6.25e-04
+[bpe_rope_mha_longtrain] epoch 7/20 loss=2.5029 acc=73.37% lr=5.79e-04
+[bpe_rope_mha_longtrain] epoch 8/20 loss=2.4600 acc=74.18% lr=5.42e-04
+[bpe_rope_mha_longtrain] epoch 9/20 loss=2.4231 acc=74.85% lr=5.11e-04
+[bpe_rope_mha_longtrain] epoch 10/20 loss=2.3906 acc=75.46% lr=4.84e-04
+[bpe_rope_mha_longtrain] epoch 11/20 loss=2.3621 acc=76.01% lr=4.62e-04
+[bpe_rope_mha_longtrain] epoch 12/20 loss=2.3340 acc=76.51% lr=4.42e-04
+[bpe_rope_mha_longtrain] epoch 13/20 loss=2.3136 acc=76.92% lr=4.25e-04
+[bpe_rope_mha_longtrain] epoch 14/20 loss=2.2941 acc=77.33% lr=4.09e-04
+[bpe_rope_mha_longtrain] epoch 15/20 loss=2.2761 acc=77.69% lr=3.96e-04
+[bpe_rope_mha_longtrain] epoch 16/20 loss=2.2576 acc=78.05% lr=3.83e-04
+[bpe_rope_mha_longtrain] epoch 17/20 loss=2.2403 acc=78.38% lr=3.72e-04
+[bpe_rope_mha_longtrain] epoch 18/20 loss=2.2256 acc=78.67% lr=3.61e-04
+[bpe_rope_mha_longtrain] epoch 19/20 loss=2.2119 acc=78.96% lr=3.51e-04
+[bpe_rope_mha_longtrain] epoch 20/20 loss=2.1983 acc=79.22% lr=3.43e-04
+[bpe_rope_mha_longtrain] eval loss=2.3463 acc=77.08%
+[bpe_rope_mha_longtrain] saved checkpoint to /home/herrys/projects/Neural-Machine-Translation/v3/checkpoints/bpe_rope_mha_longtrain, manifest updated.
